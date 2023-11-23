@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .utama{
+            margin: 0 120px;
+        }
+        .rows{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+        }
+        .header, .header{
+            display: inline-block;
+        }
+        .sidebar{
+            border-radius: 20px 0 0 0;
+            justify-content: left;
+            align-items: left;
+            background: aqua;
+            height: 250px;
+            width: 300px;
+            margin-top: 5px;
+            margin-left: -664px;
+        }
+        .sidebar img{
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+            width: 70;
+        }
+        .sidebar h1{
+            margin-left: 30px;
+            width: 80%;
+            font-size: large;
+            font-size: 18px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .sidebar li{
+            margin-top: -10px;
+            width: 80%;
+            font-size: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-bottom: 2px solid black;
+        }
+        .sidebar li a{
+            text-decoration: none;
+            color: black;
+        }
+        .header{
+            position: relative;
+            margin-left: 5px;
+            margin-top: 5px;
+            background: aqua;
+            margin-bottom: 5px;
+            margin-top: -250px;
+            height: 250px;
+            width: 684px;
+            margin-right: -340px;
+        }
+        .header h1,h5{
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: right;
+        }
+        .navbar{
+            box-sizing: border-box;
+            display: flex;
+            flex:auto;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            position: relative;
+            height: 50px;
+            margin: 5px;
+            margin-left: 349px;
+            background: aqua;
+        }
+        .navbar a{
+            font-size: 20px;
+            font-weight: 90;
+            text-decoration: none;
+            margin: 0 10px;
+            color: black;
+        }
+        .content{
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            position: relative;
+            height: 240px;
+            margin: 5px;
+            margin-left: 350px;
+            background: aqua;
+            width: 670px;
+            padding: 3px 7px 7px 7px;
+            overflow: scroll;
+        }
+        .content h2, h3{
+            float: left;
+            font-size: 25px;
+        }
+        .content p{
+            margin-top: -10px;
+            float: left;
+            font-size: 20px;
+        }
+        .content img{
+            margin-top: 60px;
+            height: 90px;
+            width: 90px;
+        }
+        .footer{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex: 1;
+            width: 50px;
+            position: relative;
+            height: 50px;
+            margin: 5px;
+            background: aqua;
+            border-radius: 20px 0 20px 0;
+        }
+        .footer h4{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+        }
+        .footer h5{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 15px;
+        }
+    </style>
+<body>
+    <div class="utama">
+        <div class="rows">
+            <div class="sidebar">
+                <img src="../img/logo_Polibang.png" alt=""><br>
+                <h1>Artikel Populer</h1><br>
+                <ul>
+                    <li><a href="../profile/reza.html" target="content">Desain Web</a></li><br>
+                    <li><a href="">HTML</a></li><br>
+                    <li><a href="">CSS</a></li><br>
+                    <li><a href="">Polibang</a></li><br>
+                </ul>
+            </div>
+        </div>
+        <div class="rows">
+            <div class="header">
+                <h1>Belajar Layout Website</h1><br>
+                <h5>Menggunakan HTML dan CSS</h5>
+            </div>
+        </div>
+        <div class="rows">
+            <div class="navbar">
+                <br><br><a href=""target="content">HOME</a><br>
+                <br><br><a href=""target="content">VISI & MISI</a><br>
+                <br><br><a href=""target="content">INFORMASI</a><br>
+                <br><br><a href=""target="content">DOSEN</a><br>
+                <br><br><a href=""target="content">KONTAK</a><br>
+                <br><br><a href=""target="content">GALERI</a><br>
+            </div>
+        </div>
+        <div class="rows">
+            <div class="content">
+            <h2>Selamat Datang</h2><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident consectetur error culpa quo at, qui est possimus autem. Rem ex doloremque, dolorem at reiciendis pariatur inventore cum ipsum mollitia incidunt!</p><br>
+                <br><h3>Galeri</h3><br>
+                <img src="../img/reza.jpg" alt="">
+                <img src="../img/zainal.jpeg" alt="">
+                <img src="../img/zaka.jpeg" alt="">
+            </div>
+        </div>
+        <div class="rows">
+            <div class="footer">
+                <h4>@ Copyright 2019. All Right Reserved</h4><br>
+                <br><h5>Rekayasa Perangkat Lunak Politeknik Balekambang Jepara</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

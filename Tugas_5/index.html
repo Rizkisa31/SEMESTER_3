@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 5</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background: aqua;
+    }
+    .container{
+        margin: 20px;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header{
+        display: flex;
+        background-color: rgb(9, 112, 118);
+        position: relative;
+        height: 90px;
+        flex: 1;
+        margin: 3px;
+    }
+    .header img{
+        height: 70px;
+        width: 70px;
+        padding: 10px;
+    }
+    .header h1{
+        text-align: left;
+        font-size: 50;
+    }
+    .navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(9, 112, 118);
+        position: relative;
+        margin: 3px;
+        height: 50px;
+        flex: 1;
+    }
+    .navigation a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+    .content{
+        overflow: scroll;
+        display: flex;
+        background: rgb(9, 112, 118);
+        position: relative;
+        flex: 2;
+        margin: 3px;
+        max-height: 400px;
+    }
+    .content h2,h3{
+        font-size: 20px;
+        text-align: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .sidebar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(9, 112, 118);
+        position: relative;
+        flex: 1;
+        height: 400px;
+        margin: 3px;
+    }
+    .sidebar h5{
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .sidebar a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(9, 112, 118);
+        position: relative;
+        flex: 1;
+        margin: 3px;
+        height: 75px;
+    }
+    .footer img{
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+    }
+    .footer p{
+        font-size: 17px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .footer h6{
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+</style>
+<body>
+    <div class="contaier">
+        <div class="row">
+            <div class="header">
+                <img src="../img/logo_Polibang.png" alt="">
+                <h1>Politeknik Balekambang jepara</h1>
+            </div>
+        </div>
+        <div class="fow">
+            <div class="navigation">
+                <a href="">A</a>
+                <a href="">B</a>
+                <a href="">C</a>
+                <a href="">D</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="content">
+                <br><h2>Visi</h2><br>
+                <br><b>Menjadi Politeknik yang Berdaya Saing Global, Professional dan beraqidah Ahlus Sunnah Wal Jama’ah</b><br>
+                <br><h3>Misi</h3><br>
+                <br><ol>
+                    <br><li>Menyelenggarakan dan mengembangkan pendidikan yang mampu berdaya saing dalam era globalisasi</li><br>
+                    <br><li>Menyelenggarakan dan menghasilkan pendidikan yang profesional sesuai dengan prinsip good university governance</li><br>
+                    <br><li>Membangun komunitas yang ikhlas, toleransi, moderat dan religi dalam menjaga Negara Kesatuan Republik Indonesia</li><br>
+                    <br><li>Melaksanakan Tri Dharma peguruan tinggi</li><br>
+                <br></ol><br>
+                <br><h3>Prodi Rekayasa Perangkat Lunak</h3>
+                <br><h4>Nama Dosen</h4>
+                <ol>
+                    <br><li>Indra Kurniawan M.Kom</li><br>
+                    <br><li>Ahlis Noor Kholili M.Kom</li><br>
+                    <br><li>Sofia Ulfah M.Kom</li><br>
+                    <br><li>Faiq Abror M.Pd</li><br>
+                </ol>
+            </div>
+            <div class="sidebar">
+                <h5>Nama Teman</h5><br>
+                <a href="../profile/zainalArifin.html" target="content">Zaenal Afirin</a><br>
+                <a href="../profile/zaka.html" target="content">Zakaria Ahmada</a><br>
+                <a href="../profile/reza.html" target="content">M Reza Adi Wardana</a><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="footer">
+                <img src="../img/logo_Polibang.png" alt=""><br>
+                <p>Rizki Wibowo Saputro</p><br>
+                <h6>Copyright @ 2023</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web RPL</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<style>
+    body{
+        background: darkgrey;
+        padding: 0;
+        margin: 0 136.5px;
+    }
+    .container .sidebar{
+        display: grid;
+        width: 250px;
+        background-color: darkslategray;
+        border-radius: 20px 0 0 0;
+    }
+    .container .sidebar .logo{
+        margin: 10px auto;
+    }
+    .container .sidebar .logo img{
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+    }
+    .container .sidebar h2{
+        font-size: 20px;
+        font-weight: 70;
+        text-align: center;
+    }
+    .container .sidebar li{
+        font-size: 18px;
+        font-weight: 60;
+        border-bottom: 2px solid black;
+        width: 60%;
+    }
+    .container .sidebar li a{
+        color: black;
+        text-decoration: none;
+    }
+    .container .mainbar{
+        float: right;
+        width: 750px;
+        margin-top: -305px;
+    }
+    .container .mainbar .header{
+        background: darkslategray;
+        width: 750px;
+        height: 230px;
+        margin-bottom: 5px;
+    }
+    .container .mainbar .navbar {
+        background-color: darkslategray;
+        height: 50px;
+        text-align: center;
+    }
+    .container .mainbar .navbar li{
+        justify-content: center;
+        align-items: center;
+    }
+    .container .mainbar .navbar a{
+        color: black;
+        text-decoration: none;
+        margin: 20px 10px;
+    }
+    .container .mainbar .header .tulisan h1 {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: 300;
+        text-align: right;
+        margin-right: 8px;
+    }
+    .container .mainbar .header .tulisan p {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: 250;
+        text-align: right;
+        margin-right: 8px;
+    }
+    .container .main{
+        margin-top: 5px;
+        width: 750px;
+        height: 290px;
+        background-color: darkslategray;
+    }
+    .footer{
+        margin-top: 280px;
+        width: 100%;
+        height: 70px;
+        background-color: darkslategray;
+        text-align: center;
+        border-radius: 20px 0 20px 0;
+    }
+</style>
+<body>
+ <div class="container">
+    <div class="sidebar">
+        <div class="logo">
+            <img src="../img/logo_Polibang.png" alt="">
+        </div>
+               <h2>Artikel Populer</h2> 
+                    <ul>
+                        <li><a href="https://www.canva.com/id_id/membuat/situs-web/" target="main">Desain Web</a></li>
+                        <li><a href="https://www.petanikode.com/tutorial/html/" target="main">HTML</a></li>
+                        <li><a href="https://www.w3schools.com/css/" target="main">CSS</a></li>
+                        <li><a href="https://www.polibang.ac.id/" target="main">Polibang</a></li>
+                </ul>
+    </div>
+    <div class="mainbar">
+        <div class="header">
+            <div class="tulisan">
+            <br><br><br><br><br><br><h1>Belajar Layout Website</h1>
+            <p>Menggunakan HTML dan CSS</p>
+        </div>
+        </div>
+        <div class="navbar"><br>
+            <a href="1.html" target="main">HOME</a>
+            <a href="2.html" target="main">VISI & MISI</a>
+            <a href="https://www.polibang.ac.id/#" target="main">INFORMASI</a>
+            <a href="4.html" target="main">DOSEN</a>
+            <a href="5.html" target="main">KONTAK</a>
+            <a href="6.html" target="main">GALERY</a>
+        </div>
+        <div class="main">
+            <iframe src="1.html" name="main" frameborder="" width="100%" height="100%"></iframe>
+        </div>
+    </div>
+</div>   
+<div class="footer">
+    &copy; <script>document.write(new Date().getFullYear())</script>
+    <p>-Copyright By <strong>Rizki Wibowo</strong></p>
+</div>
+</body>
+</html>
